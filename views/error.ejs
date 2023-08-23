@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+  <body>
+    <%- include("./partials/nav.ejs") %> <% if (message) { %>
+    <div class="alert alert-danger" role="alert"><%- message %></div>
+    <% } %> <%- include("./partials/footer.ejs") %>
+  </body>
+</html>
